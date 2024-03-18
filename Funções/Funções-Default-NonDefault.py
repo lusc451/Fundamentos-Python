@@ -10,5 +10,7 @@ def boas_vindas(nome, quantidade=6):
     print(f'Temos {str(quantidade)} notebooks em estoque')
     
 boas_vindas('Lucas', 8)
-boas_vindas('Rodrigo')
-boas_vindas('Emily')
+boas_vindas('Rodrigo', 18)
+boas_vindas('Emily', 23)
+
+#teste commit
