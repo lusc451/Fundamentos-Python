@@ -5,5 +5,12 @@
     
 alunos = {'nome': 'Lucas', 'idade': 25, 'nota final': '10', 'aprovação': True}
 
-print(alunos['nome'])
-print(alunos['idade'])
+#ATUALIZAR DADOS NO DICIONARIO
+
+# alunos['nome'] = 'João'
+# alunos.update({'nome': 'Rodrigo', 'nota final': '8'})
+# alunos.update({'endereço': 'Rua A'})
+del alunos['idade']
+
+print(alunos)
+# print(alunos.get('endereço', 'Não existe o campo endereço'))
