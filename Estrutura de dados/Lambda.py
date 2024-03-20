@@ -4,10 +4,10 @@
     #Muito utilizada dentro de outras funções
     #Código mais "Clean"
 
-# def somar(x):
+# def somar(x):  função completa
 #     return x + 10
 # print(somar(2))
 
 
-somar10 = lambda x: x + 10
+somar10 = lambda x: x + 10 #Função Lambda - executa a mesma tarefa que a função completa, porém, em menos linhas
 print(somar10(2))
