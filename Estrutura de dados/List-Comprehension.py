@@ -11,6 +11,6 @@ frutas1 = ['abacate', 'banana', 'morango', 'kiwi', 'abacaxi']
 #     if 'n' in itens:
 #         frutas2.append(itens)
 
-frutas2 = [iten for iten in frutas1 if 'b' in iten]
+frutas2 = [iten for iten in frutas1 if 'k' in iten]
 
 print(frutas2)
