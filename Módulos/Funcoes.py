@@ -1,5 +1,3 @@
-
-
 def somar():
     print('Esta função vai somar valores')
 
