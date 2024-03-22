@@ -8,6 +8,7 @@
 
     #Método from - Importa uma função especifica do código
 
-from Funcoes import somar
+from Funcoes import somar, multi
 
 somar()
+multi()
