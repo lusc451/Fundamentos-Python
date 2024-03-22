@@ -8,7 +8,13 @@
 
     #Método from - Importa uma função especifica do código
 
-from Funcoes import somar, multi
+# from Funcoes import somar, multi
 
-somar()
-multi()
+# somar()
+# multi()
+
+#IMPORTAR DE PACKAGES
+
+from Items.cadastro import cliente
+
+cliente()
