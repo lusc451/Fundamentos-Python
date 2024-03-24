@@ -31,4 +31,18 @@ elif 65 <= temp <= 70:
     ponto = 'Carne ao ponto para o bem'
 else: ponto = 'Carne bem passada'
 
+#Resolução utilizando range no IF
+if temp < 48:
+    ponto = 'Deixe a carne cozinhar por mais alguns minutos.'
+elif temp in range(48, 53):
+    ponto = 'Carne selada'
+elif temp in range(54, 59):
+    ponto = 'Carne ao ponto para o mal'
+elif temp in range(60, 64):
+    ponto = 'Carne ao ponto'
+elif temp in range(65, 70):
+    ponto = 'Carne ao ponto para o bem'
+else: ponto = 'Carne bem passada'
+
+
 print(ponto)
