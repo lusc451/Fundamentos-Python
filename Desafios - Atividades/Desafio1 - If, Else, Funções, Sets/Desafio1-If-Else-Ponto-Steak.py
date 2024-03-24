@@ -15,21 +15,21 @@ Temperatura - Cozimento
 
 temp = int(input('Digite a temperatura da carne: '))
 
-if temp < 48:
-    ponto = 'Deixe a carne cozinhar por mais alguns minutos.'
+# if temp < 48:
+#     ponto = 'Deixe a carne cozinhar por mais alguns minutos.'
 
-elif 48 <= temp <= 53:
-    ponto = 'Carne selada'
+# elif 48 <= temp <= 53:
+#     ponto = 'Carne selada'
 
-elif 54 <= temp <= 59:
-    ponto = 'Carne ao ponto para o mal'
+# elif 54 <= temp <= 59:
+#     ponto = 'Carne ao ponto para o mal'
 
-elif 60 <= temp <= 64:
-    ponto = 'Carne ao ponto'
+# elif 60 <= temp <= 64:
+#     ponto = 'Carne ao ponto'
     
-elif 65 <= temp <= 70:
-    ponto = 'Carne ao ponto para o bem'
-else: ponto = 'Carne bem passada'
+# elif 65 <= temp <= 70:
+#     ponto = 'Carne ao ponto para o bem'
+# else: ponto = 'Carne bem passada'
 
 #Resolução utilizando range no IF
 if temp < 48:
@@ -42,7 +42,7 @@ elif temp in range(60, 64):
     ponto = 'Carne ao ponto'
 elif temp in range(65, 70):
     ponto = 'Carne ao ponto para o bem'
-else: ponto = 'Carne bem passada'
-
+elif temp >= 71:
+    ponto = 'Carne bem passada'
 
 print(ponto)
