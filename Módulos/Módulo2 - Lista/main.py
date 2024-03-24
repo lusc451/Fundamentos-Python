@@ -1,6 +1,7 @@
 from funcoes import find_index
 
 
-list1 = ['a', 'b', 'c', 'd', 'e']
+list1 = ['a', 'b', 'c', 'd', 'e', 'f']
 
-find_index(list1,)
+var1 = find_index(list1, 'f')
+print(var1)
