@@ -26,4 +26,9 @@ elif 54 <= temp <= 59:
 
 elif 60 <= temp <= 64:
     ponto = 'Carne ao ponto'
+    
+elif 65 <= temp <= 70:
+    ponto = 'Carne ao ponto para o bem'
+else: ponto = 'Carne bem passada'
+
 print(ponto)
