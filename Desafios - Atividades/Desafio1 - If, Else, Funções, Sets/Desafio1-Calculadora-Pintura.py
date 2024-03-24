@@ -18,6 +18,7 @@ largura = int(input('Qual a largura da parede? '))
 #     return area_parede / rendimento
 
 # qtd_latas = latas(altura, largura, rendimento)
+# print(f'Voce precisa de {qtd_latas} latas de tinta')
 
 #RESOLUÇÃO
 
@@ -27,4 +28,3 @@ def latas():
     print(f'Voce precisa de {qtd_latas} latas de tinta')
 
 latas()
-# print(f'Voce precisa de {qtd_latas} latas de tinta')
