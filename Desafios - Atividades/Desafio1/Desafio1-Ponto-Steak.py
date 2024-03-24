@@ -13,3 +13,17 @@ Temperatura - Cozimento
 160ºF ou 71ºC - Well Done (Bem passada)
 '''
 
+temp = int(input('Digite a temperatura da carne: '))
+
+if temp < 48:
+    ponto = 'Deixe a carne cozinhar por mais alguns minutos.'
+
+elif 48 <= temp <= 53:
+    ponto = 'Carne selada'
+
+elif 54 <= temp <= 59:
+    ponto = 'Carne ao ponto para o mal'
+
+elif 60 <= temp <= 64:
+    ponto = 'Carne ao ponto'
+print(ponto)
