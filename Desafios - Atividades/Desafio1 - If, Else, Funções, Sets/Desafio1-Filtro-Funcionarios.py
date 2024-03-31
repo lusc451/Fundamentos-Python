@@ -17,6 +17,6 @@ lista1 = set(funcionarios)
 lista2 = set(turno_dia)
 lista3 = set(tem_carro)
 
-print(lista1 - lista2 & lista3)
-print(lista1 & lista2 & lista3)
-print(lista1 - lista3)
+print(lista1 - lista2 & lista3) #Funcionários que tem carro e trabalham a noite
+print(lista1 & lista2 & lista3) #Funcionários que tem carro e trabalham durante o dia
+print(lista1 - lista3) #Funcionários que não tem carro
