@@ -18,3 +18,4 @@ lista2 = set(turno_dia)
 lista3 = set(tem_carro)
 
 print(lista1 - lista2 & lista3)
+print(lista1 & lista2 & lista3)
