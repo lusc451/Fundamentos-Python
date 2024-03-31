@@ -13,3 +13,8 @@ turno_dia = ['Ana', 'Marcos', 'Alice', 'Melissa']
 turno_noite = ['Pedro', 'Sophia', 'Bruno']
 tem_carro = ['Marcos', 'Alice', 'Bruno', 'Melissa']
 
+lista1 = set(funcionarios)
+lista2 = set(turno_dia)
+lista3 = set(tem_carro)
+
+print(lista1)
