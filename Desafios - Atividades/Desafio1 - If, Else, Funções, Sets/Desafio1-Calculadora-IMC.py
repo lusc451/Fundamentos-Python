@@ -14,7 +14,8 @@ Qual é o seu peso em kg:
 peso = float(input('Qual é o seu peso em kg: '))
 altura = float(input('Qual é a sua altura em cm: '))
 
-imc = peso / (altura **2)
+altura_m = altura / 100  # Convertendo altura para metros
+imc = peso / (altura_m ** 2)
 
 if imc < 18.5:
     categoria = "Magreza"
