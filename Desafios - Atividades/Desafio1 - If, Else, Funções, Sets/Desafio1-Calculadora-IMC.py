@@ -11,8 +11,21 @@ Qual é o seu peso em kg:
 # ENTRE 30,0 E 39,9 -- OBESIDADE
 # MAIOR QUE 40,0 -- OBESIDADE GRAVE
 
-altura = float(input('Qual é a sua altura em cm: '))
 peso = float(input('Qual é o seu peso em kg: '))
-imc = peso / (altura ** 2)
+altura = float(input('Qual é a sua altura em cm: '))
 
-print(imc)
+imc = peso / (altura **2)
+
+if imc < 18.5:
+    categoria = "Magreza"
+elif 18.5 <= imc < 24.9:
+    categoria = "Normal"
+elif 25 <= imc < 29.9:
+    categoria = "Sobrepeso"
+elif 30 <= imc < 39.9:
+    categoria = "Obesidade"
+elif imc > 40:
+    categoria = "Obesidade Grave"
+    
+print(f"Seu IMC é: {imc:.2f}")
+print(f"Classificação: {categoria}")
