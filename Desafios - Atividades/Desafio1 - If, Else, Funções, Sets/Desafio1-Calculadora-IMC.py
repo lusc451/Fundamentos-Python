@@ -11,8 +11,8 @@ Qual é o seu peso em kg:
 # ENTRE 30,0 E 39,9 -- OBESIDADE
 # MAIOR QUE 40,0 -- OBESIDADE GRAVE
 
-peso = float(input('Qual é o seu peso em kg: '))
 altura = float(input('Qual é a sua altura em cm: '))
+peso = float(input('Qual é o seu peso em kg: '))
 
 imc = peso / (altura/100)**2
 
