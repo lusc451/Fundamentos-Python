@@ -26,7 +26,7 @@ print(usuario1.nome)
 print(usuario2.nome)
 
 
-# #CRIAR OS PARAMETROS DO USUÁRIO1
+# CRIAR OS PARAMETROS DO USUÁRIO1
 # usuario1.nome = 'Lucas'
 # usuario1.sobrenome = 'Antunes'
 # usuario1.data_nasc = '23/04/1999'
